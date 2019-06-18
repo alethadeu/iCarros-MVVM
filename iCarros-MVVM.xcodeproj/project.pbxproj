@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF43A3B022B3EA5C00B374FA /* ServiceClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3AF22B3EA5C00B374FA /* ServiceClient.swift */; };
+		EF43A3B222B3EBA400B374FA /* ServiceConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3B122B3EBA400B374FA /* ServiceConstant.swift */; };
+		EF43A3B422B40F2200B374FA /* DealModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3B322B40F2200B374FA /* DealModel.swift */; };
+		EF43A3B622B4139100B374FA /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3B522B4139100B374FA /* Equipment.swift */; };
+		EF43A3B822B4142300B374FA /* EquiqpmentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3B722B4142300B374FA /* EquiqpmentModel.swift */; };
+		EF43A3BC22B41D6800B374FA /* DealCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF43A3BB22B41D6800B374FA /* DealCollectionViewCell.xib */; };
+		EF43A3BE22B41D9C00B374FA /* DealCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3BD22B41D9C00B374FA /* DealCollectionViewCell.swift */; };
+		EF43A3C022B4347300B374FA /* DealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3BF22B4347300B374FA /* DealViewModel.swift */; };
+		EF43A3C322B7D43A00B374FA /* DynamicValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3C222B7D43A00B374FA /* DynamicValue.swift */; };
+		EF43A3C522B7D77500B374FA /* DealDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3C422B7D77500B374FA /* DealDataSource.swift */; };
+		EF43A3C722B7D90B00B374FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3C622B7D90B00B374FA /* Constants.swift */; };
+		EF43A3C922B7DEBF00B374FA /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3C822B7DEBF00B374FA /* Extension.swift */; };
+		EF43A3D022B81E2400B374FA /* DealDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3CF22B81E2400B374FA /* DealDetailViewController.swift */; };
+		EF43A3D522B82B2700B374FA /* DealOptionsDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF43A3D422B82B2700B374FA /* DealOptionsDetailTableViewCell.swift */; };
+		EFC15ACC22B3E43D009AC421 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15ACB22B3E43D009AC421 /* AppDelegate.swift */; };
+		EFC15ACE22B3E43D009AC421 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15ACD22B3E43D009AC421 /* SceneDelegate.swift */; };
+		EFC15AD022B3E43D009AC421 /* DealListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15ACF22B3E43D009AC421 /* DealListViewController.swift */; };
+		EFC15AD322B3E43D009AC421 /* Deal.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC15AD122B3E43D009AC421 /* Deal.storyboard */; };
+		EFC15AD522B3E43E009AC421 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFC15AD422B3E43E009AC421 /* Assets.xcassets */; };
+		EFC15AD822B3E43E009AC421 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFC15AD622B3E43E009AC421 /* LaunchScreen.storyboard */; };
+		EFC15AEB22B3E60E009AC421 /* Deal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFC15AEA22B3E60E009AC421 /* Deal.swift */; };
+		FEF9C33EC6A57D6779BF9DA8 /* Pods_iCarros_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E311C616B6969DE233CF68 /* Pods_iCarros_MVVM.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C5A7E74510486DCFC15C25D /* Pods-iCarros-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCarros-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-iCarros-MVVM/Pods-iCarros-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
+		51E311C616B6969DE233CF68 /* Pods_iCarros_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iCarros_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E474473255EBFE8C6B7A6BEC /* Pods-iCarros-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iCarros-MVVM.release.xcconfig"; path = "Target Support Files/Pods-iCarros-MVVM/Pods-iCarros-MVVM.release.xcconfig"; sourceTree = "<group>"; };
+		EF43A3AF22B3EA5C00B374FA /* ServiceClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceClient.swift; sourceTree = "<group>"; };
+		EF43A3B122B3EBA400B374FA /* ServiceConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceConstant.swift; sourceTree = "<group>"; };
+		EF43A3B322B40F2200B374FA /* DealModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealModel.swift; sourceTree = "<group>"; };
+		EF43A3B522B4139100B374FA /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		EF43A3B722B4142300B374FA /* EquiqpmentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquiqpmentModel.swift; sourceTree = "<group>"; };
+		EF43A3BB22B41D6800B374FA /* DealCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DealCollectionViewCell.xib; sourceTree = "<group>"; };
+		EF43A3BD22B41D9C00B374FA /* DealCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF43A3BF22B4347300B374FA /* DealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealViewModel.swift; sourceTree = "<group>"; };
+		EF43A3C222B7D43A00B374FA /* DynamicValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicValue.swift; sourceTree = "<group>"; };
+		EF43A3C422B7D77500B374FA /* DealDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDataSource.swift; sourceTree = "<group>"; };
+		EF43A3C622B7D90B00B374FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EF43A3C822B7DEBF00B374FA /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		EF43A3CF22B81E2400B374FA /* DealDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealDetailViewController.swift; sourceTree = "<group>"; };
+		EF43A3D422B82B2700B374FA /* DealOptionsDetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealOptionsDetailTableViewCell.swift; sourceTree = "<group>"; };
+		EFC15AC822B3E43D009AC421 /* iCarros-MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iCarros-MVVM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFC15ACB22B3E43D009AC421 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFC15ACD22B3E43D009AC421 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EFC15ACF22B3E43D009AC421 /* DealListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DealListViewController.swift; sourceTree = "<group>"; };
+		EFC15AD222B3E43D009AC421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Deal.storyboard; sourceTree = "<group>"; };
+		EFC15AD422B3E43E009AC421 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFC15AD722B3E43E009AC421 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFC15AD922B3E43E009AC421 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFC15AEA22B3E60E009AC421 /* Deal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deal.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFC15AC522B3E43D009AC421 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF9C33EC6A57D6779BF9DA8 /* Pods_iCarros_MVVM.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD576D8943122CFCD8536C19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51E311C616B6969DE233CF68 /* Pods_iCarros_MVVM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D392F67D37583351529329ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C5A7E74510486DCFC15C25D /* Pods-iCarros-MVVM.debug.xcconfig */,
+				E474473255EBFE8C6B7A6BEC /* Pods-iCarros-MVVM.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EF43A3C122B7D40F00B374FA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3C222B7D43A00B374FA /* DynamicValue.swift */,
+				EF43A3C622B7D90B00B374FA /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EF43A3CA22B8168C00B374FA /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3CB22B8169300B374FA /* Deal */,
+			);
+			name = Scenes;
+			sourceTree = "<group>";
+		};
+		EF43A3CB22B8169300B374FA /* Deal */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3D322B81F1A00B374FA /* View Model - Data Source */,
+				EF43A3D222B81EF900B374FA /* Storyboard */,
+				EF43A3D122B81EC800B374FA /* Cells - Xibs & Controllers */,
+				EF43A3CE22B81DED00B374FA /* Controllers */,
+				EF43A3CD22B816D000B374FA /* Model */,
+				EF43A3CC22B816B900B374FA /* View Model */,
+			);
+			name = Deal;
+			sourceTree = "<group>";
+		};
+		EF43A3CC22B816B900B374FA /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3BF22B4347300B374FA /* DealViewModel.swift */,
+			);
+			name = "View Model";
+			sourceTree = "<group>";
+		};
+		EF43A3CD22B816D000B374FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3B522B4139100B374FA /* Equipment.swift */,
+				EFC15AEA22B3E60E009AC421 /* Deal.swift */,
+				EF43A3B322B40F2200B374FA /* DealModel.swift */,
+				EF43A3B722B4142300B374FA /* EquiqpmentModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EF43A3CE22B81DED00B374FA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EFC15ACF22B3E43D009AC421 /* DealListViewController.swift */,
+				EF43A3CF22B81E2400B374FA /* DealDetailViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		EF43A3D122B81EC800B374FA /* Cells - Xibs & Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3BD22B41D9C00B374FA /* DealCollectionViewCell.swift */,
+				EF43A3BB22B41D6800B374FA /* DealCollectionViewCell.xib */,
+				EF43A3D422B82B2700B374FA /* DealOptionsDetailTableViewCell.swift */,
+			);
+			name = "Cells - Xibs & Controllers";
+			sourceTree = "<group>";
+		};
+		EF43A3D222B81EF900B374FA /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EFC15AD122B3E43D009AC421 /* Deal.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		EF43A3D322B81F1A00B374FA /* View Model - Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3C422B7D77500B374FA /* DealDataSource.swift */,
+			);
+			name = "View Model - Data Source";
+			sourceTree = "<group>";
+		};
+		EFC15ABF22B3E43D009AC421 = {
+			isa = PBXGroup;
+			children = (
+				EFC15ACA22B3E43D009AC421 /* iCarros-MVVM */,
+				EFC15AC922B3E43D009AC421 /* Products */,
+				D392F67D37583351529329ED /* Pods */,
+				AD576D8943122CFCD8536C19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFC15AC922B3E43D009AC421 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFC15AC822B3E43D009AC421 /* iCarros-MVVM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFC15ACA22B3E43D009AC421 /* iCarros-MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3CA22B8168C00B374FA /* Scenes */,
+				EF43A3C122B7D40F00B374FA /* Utils */,
+				EFC15AE122B3E4CF009AC421 /* Service */,
+				EFC15AE022B3E4C2009AC421 /* Extension */,
+				EFC15ACB22B3E43D009AC421 /* AppDelegate.swift */,
+				EFC15ACD22B3E43D009AC421 /* SceneDelegate.swift */,
+				EFC15AD422B3E43E009AC421 /* Assets.xcassets */,
+				EFC15AD622B3E43E009AC421 /* LaunchScreen.storyboard */,
+				EFC15AD922B3E43E009AC421 /* Info.plist */,
+			);
+			path = "iCarros-MVVM";
+			sourceTree = "<group>";
+		};
+		EFC15AE022B3E4C2009AC421 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3C822B7DEBF00B374FA /* Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EFC15AE122B3E4CF009AC421 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				EF43A3AF22B3EA5C00B374FA /* ServiceClient.swift */,
+				EF43A3B122B3EBA400B374FA /* ServiceConstant.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFC15AC722B3E43D009AC421 /* iCarros-MVVM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFC15ADC22B3E43E009AC421 /* Build configuration list for PBXNativeTarget "iCarros-MVVM" */;
+			buildPhases = (
+				629B997CA9BE44B8C5301EE5 /* [CP] Check Pods Manifest.lock */,
+				EFC15AC422B3E43D009AC421 /* Sources */,
+				EFC15AC522B3E43D009AC421 /* Frameworks */,
+				EFC15AC622B3E43D009AC421 /* Resources */,
+				5BB5500F6A097BAF87B3EC2C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iCarros-MVVM";
+			productName = "iCarros-MVVM";
+			productReference = EFC15AC822B3E43D009AC421 /* iCarros-MVVM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFC15AC022B3E43D009AC421 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Alexandre Thadeu";
+				TargetAttributes = {
+					EFC15AC722B3E43D009AC421 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = EFC15AC322B3E43D009AC421 /* Build configuration list for PBXProject "iCarros-MVVM" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFC15ABF22B3E43D009AC421;
+			productRefGroup = EFC15AC922B3E43D009AC421 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFC15AC722B3E43D009AC421 /* iCarros-MVVM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFC15AC622B3E43D009AC421 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF43A3BC22B41D6800B374FA /* DealCollectionViewCell.xib in Resources */,
+				EFC15AD822B3E43E009AC421 /* LaunchScreen.storyboard in Resources */,
+				EFC15AD522B3E43E009AC421 /* Assets.xcassets in Resources */,
+				EFC15AD322B3E43D009AC421 /* Deal.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BB5500F6A097BAF87B3EC2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCarros-MVVM/Pods-iCarros-MVVM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iCarros-MVVM/Pods-iCarros-MVVM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iCarros-MVVM/Pods-iCarros-MVVM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		629B997CA9BE44B8C5301EE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iCarros-MVVM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFC15AC422B3E43D009AC421 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF43A3C922B7DEBF00B374FA /* Extension.swift in Sources */,
+				EF43A3D022B81E2400B374FA /* DealDetailViewController.swift in Sources */,
+				EF43A3C522B7D77500B374FA /* DealDataSource.swift in Sources */,
+				EF43A3D522B82B2700B374FA /* DealOptionsDetailTableViewCell.swift in Sources */,
+				EF43A3B022B3EA5C00B374FA /* ServiceClient.swift in Sources */,
+				EFC15AD022B3E43D009AC421 /* DealListViewController.swift in Sources */,
+				EFC15ACC22B3E43D009AC421 /* AppDelegate.swift in Sources */,
+				EFC15ACE22B3E43D009AC421 /* SceneDelegate.swift in Sources */,
+				EFC15AEB22B3E60E009AC421 /* Deal.swift in Sources */,
+				EF43A3B222B3EBA400B374FA /* ServiceConstant.swift in Sources */,
+				EF43A3BE22B41D9C00B374FA /* DealCollectionViewCell.swift in Sources */,
+				EF43A3C322B7D43A00B374FA /* DynamicValue.swift in Sources */,
+				EF43A3B822B4142300B374FA /* EquiqpmentModel.swift in Sources */,
+				EF43A3B622B4139100B374FA /* Equipment.swift in Sources */,
+				EF43A3C722B7D90B00B374FA /* Constants.swift in Sources */,
+				EF43A3B422B40F2200B374FA /* DealModel.swift in Sources */,
+				EF43A3C022B4347300B374FA /* DealViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFC15AD122B3E43D009AC421 /* Deal.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC15AD222B3E43D009AC421 /* Base */,
+			);
+			name = Deal.storyboard;
+			sourceTree = "<group>";
+		};
+		EFC15AD622B3E43E009AC421 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFC15AD722B3E43E009AC421 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC15ADA22B3E43E009AC421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFC15ADB22B3E43E009AC421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFC15ADD22B3E43E009AC421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5A7E74510486DCFC15C25D /* Pods-iCarros-MVVM.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83GYSW2QVF;
+				INFOPLIST_FILE = "iCarros-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre.iCarros-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFC15ADE22B3E43E009AC421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E474473255EBFE8C6B7A6BEC /* Pods-iCarros-MVVM.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83GYSW2QVF;
+				INFOPLIST_FILE = "iCarros-MVVM/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Alexandre.iCarros-MVVM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFC15AC322B3E43D009AC421 /* Build configuration list for PBXProject "iCarros-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC15ADA22B3E43E009AC421 /* Debug */,
+				EFC15ADB22B3E43E009AC421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFC15ADC22B3E43E009AC421 /* Build configuration list for PBXNativeTarget "iCarros-MVVM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFC15ADD22B3E43E009AC421 /* Debug */,
+				EFC15ADE22B3E43E009AC421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFC15AC022B3E43D009AC421 /* Project object */;
+}
